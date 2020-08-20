@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.cell {
+  display: inline-block;
+  width: 100%;
+}
+  #parent .cell {
+    width: 8.34%;
+    padding: 45px;
+  }
+
+.odd {
+  background-color: white;
+  height: 100px;
+}
+
+.even {
+  background-color: black;
+  height: 100px;
+}
